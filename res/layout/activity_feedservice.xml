@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    
+<LinearLayout  android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+   
+   
+
+    <ImageButton
+        android:id="@+id/getFeed"
+        android:background="@drawable/feednopress"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+        />
+</LinearLayout >
+   
+
+ 
+    <LinearLayout  android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+       <ListView 
+           android:id="@+id/listView" 
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content">
+       </ListView> 
+       <!--不能把要放在listview里面的内容写在有listview的XML界面中 <TextView
+        android:id="@+id/USERNAMES"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        />
+       <TextView
+        android:id="@+id/MESSAGES"
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:textColor="#000000"
+        android:textSize="14sp"
+        />
+       <TextView
+        android:id="@+id/COMMENTSDIS"
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:textColor="#800000"
+        android:textSize="14sp"
+        /> -->
+</LinearLayout>
+
+</LinearLayout>
